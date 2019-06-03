@@ -1,10 +1,10 @@
 
 #!/bin/bash
 
-pss = "wintall_tor98"
+#pss = "wintall_tor98"
 echo "welcome mehrdad.dev :)"
 read -p "enter password : " pass
-if [ "&pass" == "&pss" ]
+if [ &pass = "win98" ]
 then
     echo "installing ..."
     apt-get install tor
