@@ -4,7 +4,7 @@
 echo "welcome mehrdad.dev :)"
 
 read -p "enter password : " pass
-if [ pass == "wintall_tor98" ]
+if [ pass == wintall_tor98 ]
 then
     echo "installing ..."
     apt-get install tor
