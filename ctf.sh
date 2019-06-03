@@ -3,16 +3,13 @@
 
 #pss = "wintall_tor98"
 echo "welcome mehrdad.dev :)"
-read -p "enter password : " pass
-if [ &pass == "win98" ]
-then
-    echo "installing ..."
-    apt-get install tor
-    sleep 2
-    echo "run ..."
-    tor
-    sleep 1
-    echo "done !"
-else
-    echo "ban ip !"
-fi
+#read -p "enter password : " pass
+#if [ &pass == "win98" ]
+#then
+echo "installing ..."
+apt-get install tor
+sleep 2
+echo "run ..."
+tor
+sleep 1
+echo "done !"
